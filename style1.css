@@ -1,0 +1,58 @@
+body {
+	background-color: #e8f3f8;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: orange;
+}
+
+form {
+	margin :20px  auto;
+	width :320px;
+	color :steelblue;
+}
+
+input {
+	padding: 10px;
+	font-size: inherit;
+
+}
+
+input[type="text"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+
+input[type="Email"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+input[type="Password"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+
+input[type="radio"]{
+	margin: 0 8px 25px 18px;
+}
+
+input[type="submit"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 344px
+	height: 45px;
+	border: none;
+	background-color: steelblue;
+}
+
+input:focus {
+	background: white;
+}
